@@ -1,0 +1,29 @@
+# ESP-IDF
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+*.bin
+*.elf
+*.map
+dependencies.lock
+managed_components/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
